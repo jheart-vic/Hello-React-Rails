@@ -1,8 +1,8 @@
 class Api::V1::MessagesController < ApplicationController
   def index
-    messages = Message.all
-    if messages
-      render json: { status: 'SUCCESS', message: 'Fetched all the messages successfully', data: messages }, status: :ok
+    message = Message.all
+    if message
+      render json: message[rand(message.length - 1)]
     else
       render json: messages.errors, status: :bad_request
     end
