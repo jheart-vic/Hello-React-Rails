@@ -29,8 +29,8 @@ To get a local copy up and running follow these simple example steps.
 - Run ./bin/bundle install
 - Run ./bin/rails javascript:install:webpack
 - To Install needed node dependencies
-- yarn add react react-dom or npm install react react-dom 
-- yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev 
+- npm add react react-dom or npm install react react-dom 
+- npm add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev 
 
 ## Author
 
