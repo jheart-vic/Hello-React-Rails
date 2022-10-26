@@ -21,16 +21,23 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 - Run git clone `https://github.com/jheart-vic/Hello-React-Rails`
+- Run `cd Hello-React-Rails`
 - Run `bundle install`
+- Run `npm i`
+- Run `rails server`
+- Run `npm run build`
+
+- Note *Make sure to have the database as postgres and change the password to your database password*
+## To Create a new App 
 - rails new -j webpack my_new_rails_app
 - RunTo add it to an existing rails app:
 
-- Add jsbundling-rails to your Gemfile with gem 'jsbundling-rails'
+- Add jsbundling-rails to your Gemfile with gem 'jsbundling-rails' if it's not there
 - Run ./bin/bundle install
 - Run ./bin/rails javascript:install:webpack
 - To Install needed node dependencies
-- yarn add react react-dom or npm install react react-dom 
-- yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev 
+- npm add react react-dom or npm install react react-dom 
+- npm add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev
 
 ## Author
 
