@@ -24,8 +24,9 @@ To get a local copy up and running follow these simple example steps.
 - Run `cd Hello-React-Rails`
 - Run `bundle install`
 - Run `npm i`
+- Run `npm run build`(having issues building the app Run`npm install --save-dev webpack webpack-cli`)
 - Run `rails server`
-- Run `npm run build`
+
 
 - Note *Make sure to have the database as postgres and change the password to your database password*
 ## To Create a new App 
