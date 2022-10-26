@@ -2,61 +2,50 @@
 
 # Project Name
 
-> Description the project.
+> This is a simple demo of how to integrate `Ruby on Rails` and ` React` 
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby on Rails
+- React
+- Git 
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- computer
 
 ### Setup
+- Run git clone `https://github.com/jheart-vic/Hello-React-Rails`
+- Run `bundle install`
+- rails new -j webpack my_new_rails_app
+- RunTo add it to an existing rails app:
 
-### Install
+- Add jsbundling-rails to your Gemfile with gem 'jsbundling-rails'
+- Run ./bin/bundle install
+- Run ./bin/rails javascript:install:webpack
+- To Install needed node dependencies
+- yarn add react react-dom or npm install react react-dom 
+- yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev 
 
-### Usage
+## Author
 
-### Run tests
+👤 **Victor Akabueze**
 
-### Deployment
+- Linkedin [victor-David](linkedin.com/in/victor-chiemerie-302a97230)
+- Twitter [victor-David](https://twitter.com/Victorjheart)
+- Github: [@Victor-David](https://github.com/jheart-vic)
 
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/jheart-vic/Hello-React-Rails/issues).
 
 ## Show your support
 
