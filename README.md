@@ -37,8 +37,8 @@ To get a local copy up and running follow these simple example steps.
 - Run ./bin/bundle install
 - Run ./bin/rails javascript:install:webpack
 - To Install needed node dependencies
-- npm add react react-dom or npm install react react-dom 
-- npm add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev 
+- yarn add react react-dom or npm install react react-dom 
+- yarn add @babel/core @babel/preset-env @babel/preset-react babel-loader --dev or npm install  @babel/core @babel/preset-env @babel/preset-react babel-loader --dev 
 
 ## Author
 
@@ -68,5 +68,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
